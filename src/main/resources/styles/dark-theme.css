@@ -1,0 +1,346 @@
+/* Dark Theme para OBD2 Car Connect */
+
+.root {
+    -fx-base: #1e1e2e;
+    -fx-background: #1e1e2e;
+    -fx-control-inner-background: #2d2d44;
+    -fx-accent: #4fc3f7;
+    -fx-focus-color: #4fc3f7;
+    -fx-faint-focus-color: transparent;
+    -fx-text-fill: #e0e0e0;
+    -fx-font-family: "Segoe UI", "Ubuntu", sans-serif;
+    -fx-font-size: 13px;
+}
+
+/* Connection Bar */
+.connection-bar {
+    -fx-background-color: #252540;
+    -fx-border-color: #3d3d5c;
+    -fx-border-width: 0 0 1 0;
+}
+
+.field-label {
+    -fx-text-fill: #b0b0c0;
+    -fx-font-weight: bold;
+}
+
+.status-label {
+    -fx-text-fill: #e0e0e0;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.protocol-label {
+    -fx-text-fill: #4fc3f7;
+    -fx-font-size: 12px;
+}
+
+/* Buttons */
+.connect-button {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 20;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.connect-button:hover {
+    -fx-background-color: #66bb6a;
+}
+
+.disconnect-button {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 20;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.disconnect-button:hover {
+    -fx-background-color: #ef5350;
+}
+
+.action-button {
+    -fx-background-color: #2196f3;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 6 16;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.action-button:hover {
+    -fx-background-color: #42a5f5;
+}
+
+.danger-button {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 6 16;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.danger-button:hover {
+    -fx-background-color: #ef5350;
+}
+
+.icon-button {
+    -fx-background-color: #3d3d5c;
+    -fx-text-fill: #e0e0e0;
+    -fx-font-size: 16px;
+    -fx-padding: 5 10;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.icon-button:hover {
+    -fx-background-color: #4d4d6c;
+}
+
+.quick-button {
+    -fx-background-color: #3d3d5c;
+    -fx-text-fill: #4fc3f7;
+    -fx-padding: 4 10;
+    -fx-background-radius: 4;
+    -fx-font-size: 11px;
+    -fx-cursor: hand;
+}
+
+.quick-button:hover {
+    -fx-background-color: #4d4d6c;
+}
+
+/* Section Title */
+.section-title {
+    -fx-text-fill: #4fc3f7;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.info-label {
+    -fx-text-fill: #90a4ae;
+    -fx-font-size: 12px;
+}
+
+/* Gauge Widgets */
+.gauge-widget {
+    -fx-background-color: #252540;
+    -fx-background-radius: 10;
+    -fx-border-color: #3d3d5c;
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
+
+.gauge-name {
+    -fx-text-fill: #90a4ae;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.gauge-value {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+
+.gauge-unit {
+    -fx-text-fill: #4fc3f7;
+    -fx-font-size: 12px;
+}
+
+.gauge-progress .track {
+    -fx-background-color: #1a1a2e;
+    -fx-background-radius: 6;
+}
+
+.gauge-progress .bar {
+    -fx-background-color: linear-gradient(to right, #4fc3f7, #29b6f6);
+    -fx-background-radius: 6;
+    -fx-background-insets: 1;
+}
+
+.progress-warning .bar {
+    -fx-background-color: linear-gradient(to right, #ff9800, #ffa726);
+}
+
+.progress-danger .bar {
+    -fx-background-color: linear-gradient(to right, #f44336, #ef5350);
+}
+
+/* Tab Pane */
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #252540;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #2d2d44;
+    -fx-background-radius: 5 5 0 0;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #3d3d5c;
+}
+
+.tab-pane .tab .tab-label {
+    -fx-text-fill: #b0b0c0;
+}
+
+.tab-pane .tab:selected .tab-label {
+    -fx-text-fill: #4fc3f7;
+    -fx-font-weight: bold;
+}
+
+.tab-pane .tab-content-area {
+    -fx-background-color: #1e1e2e;
+}
+
+/* Tables */
+.table-view {
+    -fx-background-color: #1e1e2e;
+    -fx-border-color: #3d3d5c;
+}
+
+.table-view .column-header {
+    -fx-background-color: #252540;
+    -fx-border-color: #3d3d5c;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #4fc3f7;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #1e1e2e;
+    -fx-border-color: #2d2d44;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #232338;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #3d3d5c;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #e0e0e0;
+    -fx-font-family: "Consolas", "Ubuntu Mono", monospace;
+}
+
+/* Terminal */
+.terminal-output {
+    -fx-control-inner-background: #0d0d1a;
+    -fx-text-fill: #00ff41;
+    -fx-font-family: "Consolas", "Ubuntu Mono", "Courier New", monospace;
+    -fx-font-size: 13px;
+    -fx-border-color: #3d3d5c;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.terminal-prompt {
+    -fx-text-fill: #00ff41;
+    -fx-font-family: "Consolas", "Ubuntu Mono", monospace;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.terminal-input {
+    -fx-background-color: #0d0d1a;
+    -fx-text-fill: #00ff41;
+    -fx-font-family: "Consolas", "Ubuntu Mono", monospace;
+    -fx-font-size: 13px;
+    -fx-border-color: #3d3d5c;
+    -fx-prompt-text-fill: #555;
+}
+
+/* Info Box */
+.info-box {
+    -fx-background-color: #252540;
+    -fx-background-radius: 5;
+    -fx-border-color: #3d3d5c;
+    -fx-border-radius: 5;
+}
+
+.info-box .label {
+    -fx-text-fill: #b0b0c0;
+    -fx-font-size: 12px;
+}
+
+/* Send Bar */
+.send-bar {
+    -fx-background-color: #252540;
+    -fx-background-radius: 5;
+    -fx-border-color: #3d3d5c;
+    -fx-border-radius: 5;
+}
+
+/* Status Bar */
+.status-bar {
+    -fx-background-color: #191930;
+    -fx-border-color: #3d3d5c;
+    -fx-border-width: 1 0 0 0;
+}
+
+.status-text {
+    -fx-text-fill: #666680;
+    -fx-font-size: 11px;
+}
+
+/* Combo Box */
+.combo-box {
+    -fx-background-color: #2d2d44;
+    -fx-border-color: #3d3d5c;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #e0e0e0;
+    -fx-background-color: #2d2d44;
+}
+
+.combo-box-popup .list-view .list-cell {
+    -fx-background-color: #2d2d44;
+    -fx-text-fill: #e0e0e0;
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-background-color: #3d3d5c;
+}
+
+/* Text Field */
+.text-field {
+    -fx-background-color: #2d2d44;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #3d3d5c;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-prompt-text-fill: #666680;
+}
+
+/* Separator */
+.separator .line {
+    -fx-border-color: #3d3d5c;
+}
+
+/* Scroll Bar */
+.scroll-bar .thumb {
+    -fx-background-color: #3d3d5c;
+    -fx-background-radius: 3;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #1e1e2e;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+}
